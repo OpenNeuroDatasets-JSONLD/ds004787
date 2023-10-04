@@ -1,5 +1,5 @@
 {
-  "Name": "TMSpilot",
+  "Name": "NIMH METeR (Multi-Echo Test-Retest)",
   "BIDSVersion": "1.8.0",
   "DatasetType": "raw",
   "License": "PD",

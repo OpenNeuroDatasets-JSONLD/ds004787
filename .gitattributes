@@ -1,10 +1,10 @@
-* annex.largefiles=largerthan=1mb
+* annex.largefiles=largerthan=10kb
 * annex.backend=SHA256E
 **/.git* annex.largefiles=nothing
 *.bval annex.largefiles=nothing
 *.bvec annex.largefiles=nothing
-*.json annex.largefiles=largerthan=1mb
-*.tsv annex.largefiles=largerthan=1mb
+*.json annex.largefiles=largerthan=10kb
+*.tsv annex.largefiles=largerthan=10kb
 dataset_description.json annex.largefiles=nothing
 .bidsignore annex.largefiles=nothing
 CHANGES annex.largefiles=nothing

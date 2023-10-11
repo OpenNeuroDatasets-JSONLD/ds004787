@@ -1,0 +1,35 @@
+[
+    [
+        "clip",
+        true
+    ],
+    [
+        "in_file",
+        [
+            "/home/zugmana2/.cache/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_T1w.nii.gz",
+            "90a596c88459b8114da4cfd0f71581a6"
+        ]
+    ],
+    [
+        "order",
+        3
+    ],
+    [
+        "smooth",
+        true
+    ],
+    [
+        "zooms",
+        [
+            "4.0000000000",
+            "4.0000000000",
+            "4.0000000000"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

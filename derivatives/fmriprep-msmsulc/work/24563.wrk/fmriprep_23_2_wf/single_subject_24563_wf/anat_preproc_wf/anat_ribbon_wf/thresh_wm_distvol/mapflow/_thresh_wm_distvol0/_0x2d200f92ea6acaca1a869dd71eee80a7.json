@@ -1,0 +1,23 @@
+[
+    [
+        "args",
+        "-thr 0 -bin -mul 255"
+    ],
+    [
+        "in_file",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_ribbon_wf/create_wm_distvol/mapflow/_create_wm_distvol0/lh.white_converted_distvol.nii.gz",
+            "ee131eaac9b6104d265f980acf040d79"
+        ]
+    ],
+    [
+        "output_type",
+        "NIFTI_GZ"
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

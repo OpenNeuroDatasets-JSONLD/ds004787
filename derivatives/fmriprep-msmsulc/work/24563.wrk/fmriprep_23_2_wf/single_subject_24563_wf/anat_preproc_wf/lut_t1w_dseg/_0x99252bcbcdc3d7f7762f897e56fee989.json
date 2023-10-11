@@ -1,0 +1,28 @@
+[
+    [
+        "function_str",
+        "def apply_lut(in_dseg, lut, newpath=None):\n    \"\"\"Map the input discrete segmentation to a new label set (lookup table, LUT).\"\"\"\n    import numpy as np\n    import nibabel as nb\n    from nipype.utils.filemanip import fname_presuffix\n\n    if newpath is None:\n        from os import getcwd\n\n        newpath = getcwd()\n\n    out_file = fname_presuffix(in_dseg, suffix=\"_dseg\", newpath=newpath)\n    lut = np.array(lut, dtype=\"int16\")\n\n    segm = nb.load(in_dseg)\n    hdr = segm.header.copy()\n    hdr.set_data_dtype(\"int16\")\n    segm.__class__(\n        lut[np.asanyarray(segm.dataobj, dtype=int)].astype(\"int16\"), segm.affine, hdr\n    ).to_filename(out_file)\n\n    return out_file\n"
+    ],
+    [
+        "in_dseg",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/t1w_dseg/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_xform_masked_pveseg.nii.gz",
+            "5be1da1144f8b607a5bcecea9bcccba9"
+        ]
+    ],
+    [
+        "lut",
+        [
+            0,
+            3,
+            1,
+            2
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "out"
+        ]
+    ]
+]

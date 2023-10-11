@@ -1,0 +1,34 @@
+[
+    [
+        "in_files",
+        [
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/applyrefined/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_xform_masked.nii.gz",
+                "1401bd08316985aae5139d6cdfd4fd64"
+            ]
+        ]
+    ],
+    [
+        "no_bias",
+        true
+    ],
+    [
+        "output_type",
+        "NIFTI_GZ"
+    ],
+    [
+        "probability_maps",
+        true
+    ],
+    [
+        "segments",
+        true
+    ],
+    [
+        "needed_outputs",
+        [
+            "partial_volume_files",
+            "partial_volume_map"
+        ]
+    ]
+]

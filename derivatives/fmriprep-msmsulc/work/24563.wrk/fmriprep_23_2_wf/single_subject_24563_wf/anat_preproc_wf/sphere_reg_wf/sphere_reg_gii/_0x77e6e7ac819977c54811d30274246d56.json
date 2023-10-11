@@ -1,0 +1,29 @@
+[
+    [
+        "in_file",
+        [
+            [
+                "/lscratch/8536404/24563.out/sourcedata/freesurfer/sub-24563/surf/lh.sphere.reg",
+                "9874a298055cca073c6d650b70c71aa3"
+            ],
+            [
+                "/lscratch/8536404/24563.out/sourcedata/freesurfer/sub-24563/surf/rh.sphere.reg",
+                "eae96c8dbf5bca91e607acf67a1be447"
+            ]
+        ]
+    ],
+    [
+        "out_datatype",
+        "gii"
+    ],
+    [
+        "subjects_dir",
+        "/opt/freesurfer/subjects"
+    ],
+    [
+        "needed_outputs",
+        [
+            "converted"
+        ]
+    ]
+]

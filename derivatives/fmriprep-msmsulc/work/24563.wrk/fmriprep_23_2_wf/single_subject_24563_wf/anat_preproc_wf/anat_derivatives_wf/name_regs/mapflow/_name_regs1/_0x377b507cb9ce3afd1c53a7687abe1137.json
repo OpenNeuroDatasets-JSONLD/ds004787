@@ -1,0 +1,15 @@
+[
+    [
+        "in_file",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/sphere_reg_wf/fix_reg_meta/mapflow/_fix_reg_meta1/rh.sphere.reg_converted.gii",
+            "fc9939293a86622c039e9cd1d731912a"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "hemi"
+        ]
+    ]
+]

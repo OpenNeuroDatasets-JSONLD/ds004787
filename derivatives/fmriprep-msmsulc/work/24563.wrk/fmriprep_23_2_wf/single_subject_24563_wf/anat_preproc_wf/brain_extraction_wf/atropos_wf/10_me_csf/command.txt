@@ -1,0 +1,1 @@
+ImageMath 3 sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_labeled_maths_class-01_maths.nii.gz ME /lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/brain_extraction_wf/atropos_wf/04_sel_labels/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_labeled_maths_class-01.nii.gz 10

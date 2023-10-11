@@ -1,0 +1,1 @@
+recon-all -autorecon3 -openmp 16 -subjid sub-24563 -sd /lscratch/8536404/24563.out/sourcedata/freesurfer -nosphere -nosurfreg -nojacobian_white -noavgcurv -nocortparc -nopial -noparcstats -nocortparc2 -noparcstats2 -nocortparc3 -noparcstats3 -nopctsurfcon -nocortribbon -nobalabels

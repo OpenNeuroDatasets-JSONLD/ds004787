@@ -1,0 +1,32 @@
+[
+    [
+        "anat2std_xfm",
+        [
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_norm_wf/_template_MNI152NLin6Asym/registration/ants_t1_to_mniComposite.h5",
+                "e7070f50fe49062d78139834f64ef080"
+            ],
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_norm_wf/_template_MNI152NLin2009cAsym/registration/ants_t1_to_mniComposite.h5",
+                "a2d3988f7b89cb1d8ac595e2f2cbf0db"
+            ]
+        ]
+    ],
+    [
+        "key",
+        "MNI152NLin6Asym"
+    ],
+    [
+        "keys",
+        [
+            "MNI152NLin6Asym",
+            "MNI152NLin2009cAsym"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "anat2std_xfm"
+        ]
+    ]
+]

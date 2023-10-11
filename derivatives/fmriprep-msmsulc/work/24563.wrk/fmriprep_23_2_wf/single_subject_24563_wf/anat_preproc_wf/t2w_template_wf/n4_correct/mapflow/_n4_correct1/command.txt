@@ -1,0 +1,1 @@
+N4BiasFieldCorrection -d 3 --input-image /lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/t2w_template_wf/denoise/mapflow/_denoise1/sub-24563_ses-2_rec-orig_run-1_T2w_noise_corrected.nii.gz --output sub-24563_ses-2_rec-orig_run-1_T2w_noise_corrected_corrected.nii.gz

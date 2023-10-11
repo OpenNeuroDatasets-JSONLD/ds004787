@@ -1,0 +1,1 @@
+mris_convert /lscratch/8536404/24563.out/sourcedata/freesurfer/sub-24563/surf/lh.sphere.reg /lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/sphere_reg_wf/sphere_reg_gii/mapflow/_sphere_reg_gii0/lh.sphere.reg_converted.gii

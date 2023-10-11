@@ -1,0 +1,15 @@
+[
+    [
+        "in_file",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/sphere_reg_wf/sphere_gii/mapflow/_sphere_gii1/rh.sphere_converted.gii",
+            "0a737cfe8fd177b24caa8669d8d0dcee"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

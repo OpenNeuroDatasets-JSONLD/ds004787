@@ -1,0 +1,29 @@
+[
+    [
+        "function_str",
+        "def _probseg_fast2bids(inlist):\n    \"\"\"Reorder a list of probseg maps from FAST (CSF, WM, GM) to BIDS (GM, WM, CSF).\"\"\"\n    return (inlist[1], inlist[2], inlist[0])\n"
+    ],
+    [
+        "inlist",
+        [
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/t1w_dseg/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_xform_masked_pve_0.nii.gz",
+                "3ac8cd63b34dd680b0c9e629815348f2"
+            ],
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/t1w_dseg/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_xform_masked_pve_1.nii.gz",
+                "addb5e0517302113be18fdb9d2c0af77"
+            ],
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/t1w_dseg/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_xform_masked_pve_2.nii.gz",
+                "2998d58f446a04026f05964565f18df8"
+            ]
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "out"
+        ]
+    ]
+]

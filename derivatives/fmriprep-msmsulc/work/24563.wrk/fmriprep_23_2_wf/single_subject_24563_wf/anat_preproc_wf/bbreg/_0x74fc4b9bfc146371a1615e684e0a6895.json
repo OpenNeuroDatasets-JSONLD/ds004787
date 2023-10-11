@@ -1,0 +1,43 @@
+[
+    [
+        "args",
+        "--gm-proj-abs 2 --wm-proj-abs 1"
+    ],
+    [
+        "contrast_type",
+        "t2"
+    ],
+    [
+        "dof",
+        6
+    ],
+    [
+        "init",
+        "coreg"
+    ],
+    [
+        "out_lta_file",
+        true
+    ],
+    [
+        "source_file",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/t2w_template_wf/anat_merge/sub-24563_ses-2_rec-norm_run-1_T2w_noise_corrected_template.nii.gz",
+            "ff884805cce2ce90ac2840d17874ef4d"
+        ]
+    ],
+    [
+        "subject_id",
+        "sub-24563"
+    ],
+    [
+        "subjects_dir",
+        "/lscratch/8536404/24563.out/sourcedata/freesurfer"
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_lta_file"
+        ]
+    ]
+]

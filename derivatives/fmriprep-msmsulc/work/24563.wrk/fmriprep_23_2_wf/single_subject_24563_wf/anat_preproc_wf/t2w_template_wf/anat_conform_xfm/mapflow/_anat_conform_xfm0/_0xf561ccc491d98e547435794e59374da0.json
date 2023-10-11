@@ -1,0 +1,30 @@
+[
+    [
+        "in_lta",
+        "identity.nofile"
+    ],
+    [
+        "out_lta",
+        true
+    ],
+    [
+        "source_file",
+        [
+            "/data/EDB/TMSpilot/BIDS/sub-24563/ses-2/anat/sub-24563_ses-2_rec-norm_run-1_T2w.nii.gz",
+            "de51a6e51fc617a406626f12f90ec52e"
+        ]
+    ],
+    [
+        "target_file",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/t2w_template_wf/denoise/mapflow/_denoise0/sub-24563_ses-2_rec-norm_run-1_T2w_noise_corrected.nii.gz",
+            "c0a29ddaf1ed9732b3e0f4f1b0a0f34c"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_lta"
+        ]
+    ]
+]

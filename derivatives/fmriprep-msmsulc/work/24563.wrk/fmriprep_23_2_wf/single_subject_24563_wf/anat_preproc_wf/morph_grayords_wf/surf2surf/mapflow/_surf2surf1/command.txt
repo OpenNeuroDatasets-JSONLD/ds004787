@@ -1,0 +1,1 @@
+mri_surf2surf --hemi rh --tval /lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/morph_grayords_wf/surf2surf/mapflow/_surf2surf1/rh.curv.fsaverage.gii --sval /lscratch/8536404/24563.out/sourcedata/freesurfer/sub-24563/surf/rh.curv --srcsubject sub-24563 --trgsubject fsaverage 

@@ -1,0 +1,34 @@
+[
+    [
+        "fixed_image",
+        [
+            "/home/zugmana2/.cache/templateflow/tpl-MNI152NLin6Asym/tpl-MNI152NLin6Asym_res-02_T1w.nii.gz",
+            "1e6228e356099dcbf406a171760d0ed2"
+        ]
+    ],
+    [
+        "fov_mask",
+        null
+    ],
+    [
+        "keep_native",
+        false
+    ],
+    [
+        "moving_image",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/brain_extraction_wf/atropos_wf/copy_xform/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_xform.nii.gz",
+            "cf48e8b1c5e9664c4b59e5a81d31ca13"
+        ]
+    ],
+    [
+        "xform_code",
+        null
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

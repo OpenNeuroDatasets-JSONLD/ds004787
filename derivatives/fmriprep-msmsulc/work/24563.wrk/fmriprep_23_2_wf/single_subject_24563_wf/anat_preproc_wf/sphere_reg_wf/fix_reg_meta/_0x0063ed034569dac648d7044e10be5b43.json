@@ -1,0 +1,21 @@
+[
+    [
+        "in_file",
+        [
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/sphere_reg_wf/sphere_reg_gii/mapflow/_sphere_reg_gii0/lh.sphere.reg_converted.gii",
+                "6bbbc1d33b0f56e89f14cb5ce3d05cae"
+            ],
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/sphere_reg_wf/sphere_reg_gii/mapflow/_sphere_reg_gii1/rh.sphere.reg_converted.gii",
+                "52849712f47f03b863e4abf7a222d205"
+            ]
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

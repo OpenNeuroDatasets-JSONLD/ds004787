@@ -1,0 +1,34 @@
+[
+    [
+        "axis",
+        "vstack"
+    ],
+    [
+        "in1",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_template_wf/anat_conform_xfm/mapflow/_anat_conform_xfm1/out.lta",
+            "24e320ca5bad9a3020fb8abf6e341c5c"
+        ]
+    ],
+    [
+        "in2",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_template_wf/anat_merge/tp2.lta",
+            "851abe29b5f345cee12a332b10c4d163"
+        ]
+    ],
+    [
+        "no_flatten",
+        false
+    ],
+    [
+        "ravel_inputs",
+        false
+    ],
+    [
+        "needed_outputs",
+        [
+            "out"
+        ]
+    ]
+]

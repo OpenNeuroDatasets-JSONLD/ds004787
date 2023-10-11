@@ -1,0 +1,22 @@
+[
+    [
+        "hemi",
+        "both"
+    ],
+    [
+        "subject_id",
+        "sub-24563"
+    ],
+    [
+        "subjects_dir",
+        "/lscratch/8536404/24563.out/sourcedata/freesurfer"
+    ],
+    [
+        "needed_outputs",
+        [
+            "curv",
+            "sulc",
+            "thickness"
+        ]
+    ]
+]

@@ -1,0 +1,16 @@
+[
+    [
+        "in_file",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/surface_recon_wf/gifti_surface_wf/fix_surfs/mapflow/_fix_surfs4/lh.inflated_converted.gii",
+            "44f9f3ab0c2a42930e6c9ada7171cbc2"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "hemi",
+            "suffix"
+        ]
+    ]
+]

@@ -1,0 +1,37 @@
+[
+    [
+        "in_file",
+        [
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/t2w_template_wf/denoise/mapflow/_denoise0/sub-24563_ses-2_rec-norm_run-1_T2w_noise_corrected.nii.gz",
+                "c0a29ddaf1ed9732b3e0f4f1b0a0f34c"
+            ],
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/t2w_template_wf/denoise/mapflow/_denoise1/sub-24563_ses-2_rec-orig_run-1_T2w_noise_corrected.nii.gz",
+                "a284d4682ec78cfd64526892a8604d57"
+            ]
+        ]
+    ],
+    [
+        "target_shape",
+        [
+            246,
+            512,
+            512
+        ]
+    ],
+    [
+        "target_zooms",
+        [
+            "0.8000000119",
+            "0.5000000000",
+            "0.5000000000"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

@@ -1,0 +1,32 @@
+[
+    [
+        "in_file",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_ribbon_wf/bin_pial_distvol/mapflow/_bin_pial_distvol0/lh.pial_converted_distvol_maths_bin.nii.gz",
+            "20246e3f4cbcefe99f61fbc24279e29a"
+        ]
+    ],
+    [
+        "op_string",
+        "-mas %s -mul 255"
+    ],
+    [
+        "operand_files",
+        [
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_ribbon_wf/bin_wm_distvol/mapflow/_bin_wm_distvol0/lh.white_converted_distvol_maths_bin.nii.gz",
+                "7149773a9b351d16dc955fa8bab4c1f3"
+            ]
+        ]
+    ],
+    [
+        "output_type",
+        "NIFTI_GZ"
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

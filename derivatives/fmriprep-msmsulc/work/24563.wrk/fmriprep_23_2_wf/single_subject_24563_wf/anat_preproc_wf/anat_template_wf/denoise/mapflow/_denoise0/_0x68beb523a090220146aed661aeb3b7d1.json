@@ -1,0 +1,27 @@
+[
+    [
+        "input_image",
+        [
+            "/data/EDB/TMSpilot/BIDS/sub-24563/ses-1/anat/sub-24563_ses-1_rec-orig_run-1_T1w.nii.gz",
+            "3af6151e10a7fbfa6cb7f1914cd8809d"
+        ]
+    ],
+    [
+        "noise_model",
+        "Rician"
+    ],
+    [
+        "save_noise",
+        false
+    ],
+    [
+        "shrink_factor",
+        1
+    ],
+    [
+        "needed_outputs",
+        [
+            "output_image"
+        ]
+    ]
+]

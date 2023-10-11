@@ -1,0 +1,1 @@
+recon-all -openmp 16 -subjid sub-24563 -sd /lscratch/8536404/24563.out/sourcedata/freesurfer -gcareg

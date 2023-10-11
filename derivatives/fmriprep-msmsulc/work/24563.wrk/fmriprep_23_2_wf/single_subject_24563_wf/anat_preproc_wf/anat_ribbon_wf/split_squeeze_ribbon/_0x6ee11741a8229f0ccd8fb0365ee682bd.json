@@ -1,0 +1,33 @@
+[
+    [
+        "inlist",
+        [
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_ribbon_wf/bin_ribbon_vol/mapflow/_bin_ribbon_vol0/lh.pial_converted_distvol_maths_bin_maths_bin.nii.gz",
+                "821da1c23905af6d25dcb0481743d5de"
+            ],
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_ribbon_wf/bin_ribbon_vol/mapflow/_bin_ribbon_vol1/rh.pial_converted_distvol_maths_bin_maths_bin.nii.gz",
+                "8f68a5ef34452910bc47f60fde267d51"
+            ]
+        ]
+    ],
+    [
+        "splits",
+        [
+            1,
+            1
+        ]
+    ],
+    [
+        "squeeze",
+        true
+    ],
+    [
+        "needed_outputs",
+        [
+            "out1",
+            "out2"
+        ]
+    ]
+]

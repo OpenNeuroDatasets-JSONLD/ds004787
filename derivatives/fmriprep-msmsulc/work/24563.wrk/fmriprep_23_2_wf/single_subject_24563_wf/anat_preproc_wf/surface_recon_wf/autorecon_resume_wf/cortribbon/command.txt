@@ -1,0 +1,1 @@
+recon-all -parallel -subjid sub-24563 -sd /lscratch/8536404/24563.out/sourcedata/freesurfer -T2pial -cortribbon

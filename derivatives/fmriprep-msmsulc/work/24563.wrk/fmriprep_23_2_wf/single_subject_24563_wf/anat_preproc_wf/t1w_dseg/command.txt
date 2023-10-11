@@ -1,0 +1,1 @@
+fast -N -p -g -S 1 /lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/t1w_dseg/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_xform_masked.nii.gz

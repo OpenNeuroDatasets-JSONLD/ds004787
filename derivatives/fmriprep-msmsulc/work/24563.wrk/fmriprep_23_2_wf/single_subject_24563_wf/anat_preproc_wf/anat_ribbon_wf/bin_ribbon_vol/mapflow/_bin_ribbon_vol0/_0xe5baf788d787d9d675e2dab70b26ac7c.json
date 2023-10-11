@@ -1,0 +1,23 @@
+[
+    [
+        "in_file",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_ribbon_wf/make_ribbon_vol/mapflow/_make_ribbon_vol0/lh.pial_converted_distvol_maths_bin_maths.nii.gz",
+            "99f884443aed66ecb69c7cf3cd2fb4a2"
+        ]
+    ],
+    [
+        "operation",
+        "bin"
+    ],
+    [
+        "output_type",
+        "NIFTI_GZ"
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

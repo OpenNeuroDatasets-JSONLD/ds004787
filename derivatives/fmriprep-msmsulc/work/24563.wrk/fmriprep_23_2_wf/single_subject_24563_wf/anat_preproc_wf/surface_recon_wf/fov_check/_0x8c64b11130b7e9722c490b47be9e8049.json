@@ -1,0 +1,27 @@
+[
+    [
+        "default_flags",
+        [
+            "-noskullstrip",
+            "-noT2pial",
+            "-noFLAIRpial"
+        ]
+    ],
+    [
+        "function_str",
+        "def _check_cw256(in_files, default_flags):\n    import numpy as np\n    from nibabel.funcs import concat_images\n\n    if isinstance(in_files, str):\n        in_files = [in_files]\n    summary_img = concat_images(in_files)\n    fov = np.array(summary_img.shape[:3]) * summary_img.header.get_zooms()[:3]\n    flags = list(default_flags)\n    if np.any(fov > 256):\n        flags.append(\"-cw256\")\n    return flags\n"
+    ],
+    [
+        "in_files",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_template_wf/anat_merge/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template.nii.gz",
+            "c230dcd56ab181809fd7b867f1e960f8"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "out"
+        ]
+    ]
+]

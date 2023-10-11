@@ -1,0 +1,22 @@
+[
+    [
+        "in_tuple",
+        [
+            "MNI152NLin6Asym",
+            [
+                [
+                    "res",
+                    "2"
+                ]
+            ]
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "cohort",
+            "resolution",
+            "space"
+        ]
+    ]
+]

@@ -1,0 +1,31 @@
+[
+    [
+        "copy_header",
+        true
+    ],
+    [
+        "dimension",
+        3
+    ],
+    [
+        "op1",
+        [
+            "/home/zugmana2/.cache/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_T1w.nii.gz",
+            "90a596c88459b8114da4cfd0f71581a6"
+        ]
+    ],
+    [
+        "op2",
+        "1.5 1"
+    ],
+    [
+        "operation",
+        "Laplacian"
+    ],
+    [
+        "needed_outputs",
+        [
+            "output_image"
+        ]
+    ]
+]

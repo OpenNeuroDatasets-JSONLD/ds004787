@@ -1,0 +1,34 @@
+[
+    [
+        "grayordinates",
+        "91k"
+    ],
+    [
+        "scalar_name",
+        "sulc"
+    ],
+    [
+        "scalar_surfs",
+        [
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/morph_grayords_wf/resample/mapflow/_resample2/space-fsLR_hemi-L_den-91k_sulc.shape.gii",
+                "cdeb1b62477866b3a07296181726355b"
+            ],
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/morph_grayords_wf/resample/mapflow/_resample3/space-fsLR_hemi-R_den-91k_sulc.shape.gii",
+                "b7f61718be7fa77a74e9d885f90711d4"
+            ]
+        ]
+    ],
+    [
+        "surface_target",
+        "fsLR"
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file",
+            "out_metadata"
+        ]
+    ]
+]

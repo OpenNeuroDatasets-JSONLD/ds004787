@@ -1,0 +1,24 @@
+[
+    [
+        "in_brain",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/brain_extraction_wf/atropos_wf/apply_mask/mapflow/_apply_mask0/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_xform_masked.nii.gz",
+            "2ea3b9af4f6922f6ebe90dae18a9737f"
+        ]
+    ],
+    [
+        "subject_id",
+        "sub-24563"
+    ],
+    [
+        "subjects_dir",
+        "/lscratch/8536404/24563.out/sourcedata/freesurfer"
+    ],
+    [
+        "needed_outputs",
+        [
+            "subject_id",
+            "subjects_dir"
+        ]
+    ]
+]

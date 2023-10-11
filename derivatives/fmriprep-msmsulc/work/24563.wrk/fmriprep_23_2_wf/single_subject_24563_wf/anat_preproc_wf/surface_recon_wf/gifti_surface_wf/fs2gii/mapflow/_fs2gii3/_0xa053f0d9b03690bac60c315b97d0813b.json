@@ -1,0 +1,27 @@
+[
+    [
+        "in_file",
+        [
+            "/lscratch/8536404/24563.out/sourcedata/freesurfer/sub-24563/surf/rh.pial",
+            "c6fc6f18bc0f8dbf4906b81534f48c98"
+        ]
+    ],
+    [
+        "out_datatype",
+        "gii"
+    ],
+    [
+        "subjects_dir",
+        "/opt/freesurfer/subjects"
+    ],
+    [
+        "to_scanner",
+        true
+    ],
+    [
+        "needed_outputs",
+        [
+            "converted"
+        ]
+    ]
+]

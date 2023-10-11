@@ -1,0 +1,27 @@
+[
+    [
+        "openmp",
+        16
+    ],
+    [
+        "steps",
+        [
+            "gcareg"
+        ]
+    ],
+    [
+        "subject_id",
+        "sub-24563"
+    ],
+    [
+        "subjects_dir",
+        "/lscratch/8536404/24563.out/sourcedata/freesurfer"
+    ],
+    [
+        "needed_outputs",
+        [
+            "subject_id",
+            "subjects_dir"
+        ]
+    ]
+]

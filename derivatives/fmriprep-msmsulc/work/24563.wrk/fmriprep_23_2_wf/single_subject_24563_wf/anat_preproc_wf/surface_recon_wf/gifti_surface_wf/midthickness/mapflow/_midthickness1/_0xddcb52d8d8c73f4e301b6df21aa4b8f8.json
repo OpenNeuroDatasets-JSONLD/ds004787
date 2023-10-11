@@ -1,0 +1,35 @@
+[
+    [
+        "distance",
+        "0.5000000000"
+    ],
+    [
+        "in_file",
+        [
+            "/lscratch/8536404/24563.out/sourcedata/freesurfer/sub-24563/surf/rh.white",
+            "d3a35cf5de36cbcad620751f430a8805"
+        ]
+    ],
+    [
+        "out_name",
+        "midthickness"
+    ],
+    [
+        "sphere",
+        "sphere"
+    ],
+    [
+        "subjects_dir",
+        "/opt/freesurfer/subjects"
+    ],
+    [
+        "thickness",
+        true
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

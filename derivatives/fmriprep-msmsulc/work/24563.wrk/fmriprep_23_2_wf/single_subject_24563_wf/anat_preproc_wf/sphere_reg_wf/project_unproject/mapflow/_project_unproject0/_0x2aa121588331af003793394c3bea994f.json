@@ -1,0 +1,29 @@
+[
+    [
+        "sphere_in",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/sphere_reg_wf/fix_reg_meta/mapflow/_fix_reg_meta0/lh.sphere.reg_converted.gii",
+            "31938b404ac041beff0ff88fc4856324"
+        ]
+    ],
+    [
+        "sphere_project_to",
+        [
+            "/opt/conda/envs/fmriprep/lib/python3.10/site-packages/smriprep/data/atlases/fs_L/fsaverage.L.sphere.164k_fs_L.surf.gii",
+            "865a981f3fa739e197f94c4416567633"
+        ]
+    ],
+    [
+        "sphere_unproject_from",
+        [
+            "/opt/conda/envs/fmriprep/lib/python3.10/site-packages/smriprep/data/atlases/fs_L/fs_L-to-fs_LR_fsaverage.L_LR.spherical_std.164k_fs_L.surf.gii",
+            "5700c679655ad4390e9bd0ee648f1c52"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "sphere_out"
+        ]
+    ]
+]

@@ -1,0 +1,22 @@
+[
+    [
+        "in_surface",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/sphere_reg_wf/fix_sphere_meta/mapflow/_fix_sphere_meta0/lh.sphere_converted.gii",
+            "941a91cb3ac4b0fae8feccb140acbf60"
+        ]
+    ],
+    [
+        "target_surface",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/sphere_reg_wf/project_unproject/mapflow/_project_unproject0/lh.sphere.reg_converted_unprojected.surf.gii",
+            "ee5a9d12af50cc9e933d3d31fb984da4"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_affine"
+        ]
+    ]
+]

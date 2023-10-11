@@ -1,0 +1,26 @@
+[
+    [
+        "in_file",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/brain_extraction_wf/atropos_wf/copy_xform/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_xform.nii.gz",
+            "cf48e8b1c5e9664c4b59e5a81d31ca13"
+        ]
+    ],
+    [
+        "mask_file",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/surface_recon_wf/refine/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_xform_rbrainmask.nii.gz",
+            "71569a40286cbbb1384c3689f060a542"
+        ]
+    ],
+    [
+        "output_type",
+        "NIFTI_GZ"
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

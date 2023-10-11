@@ -1,0 +1,23 @@
+[
+    [
+        "out_datatype",
+        "gii"
+    ],
+    [
+        "scalarcurv_file",
+        [
+            "/lscratch/8536404/24563.out/sourcedata/freesurfer/sub-24563/surf/lh.thickness",
+            "ad37621d7d39bcdf20ad5935d0365ac3"
+        ]
+    ],
+    [
+        "subjects_dir",
+        "/opt/freesurfer/subjects"
+    ],
+    [
+        "needed_outputs",
+        [
+            "converted"
+        ]
+    ]
+]

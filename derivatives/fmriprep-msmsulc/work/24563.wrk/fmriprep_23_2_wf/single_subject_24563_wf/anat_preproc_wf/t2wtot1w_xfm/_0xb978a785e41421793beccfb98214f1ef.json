@@ -1,0 +1,29 @@
+[
+    [
+        "in_xfms",
+        [
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/bbreg/sub-24563_ses-2_rec-norm_run-1_T2w_noise_corrected_template_bbreg_sub-24563.lta",
+                "392506fc20781556e24c390ace5461f6"
+            ],
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/surface_recon_wf/fsnative2t1w_xfm/T1_robustreg.lta",
+                "0dc7d53a8ecfb889f5c25ece0a55dd3c"
+            ]
+        ]
+    ],
+    [
+        "inverse",
+        false
+    ],
+    [
+        "out_fmt",
+        "itk"
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_xfm"
+        ]
+    ]
+]

@@ -1,0 +1,1 @@
+DenoiseImage -i /data/EDB/TMSpilot/BIDS/sub-24563/ses-2/anat/sub-24563_ses-2_rec-norm_run-1_T2w.nii.gz -n Rician -o sub-24563_ses-2_rec-norm_run-1_T2w_noise_corrected.nii.gz -s 1

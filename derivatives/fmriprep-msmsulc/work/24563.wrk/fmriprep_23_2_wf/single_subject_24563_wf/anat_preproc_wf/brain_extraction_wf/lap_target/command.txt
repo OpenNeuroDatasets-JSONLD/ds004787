@@ -1,0 +1,1 @@
+ImageMath 3 sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_maths_corrected_maths.nii.gz Laplacian /lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/brain_extraction_wf/inu_n4/mapflow/_inu_n40/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_maths_corrected.nii.gz 1.5 1

@@ -1,0 +1,46 @@
+[
+    [
+        "in_file",
+        [
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_ribbon_wf/bin_pial_distvol/mapflow/_bin_pial_distvol0/lh.pial_converted_distvol_maths_bin.nii.gz",
+                "20246e3f4cbcefe99f61fbc24279e29a"
+            ],
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_ribbon_wf/bin_pial_distvol/mapflow/_bin_pial_distvol1/rh.pial_converted_distvol_maths_bin.nii.gz",
+                "4f78fcf037d2b193be4c0736cb470a0c"
+            ]
+        ]
+    ],
+    [
+        "op_string",
+        "-mas %s -mul 255"
+    ],
+    [
+        "operand_files",
+        [
+            [
+                [
+                    "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_ribbon_wf/bin_wm_distvol/mapflow/_bin_wm_distvol0/lh.white_converted_distvol_maths_bin.nii.gz",
+                    "7149773a9b351d16dc955fa8bab4c1f3"
+                ]
+            ],
+            [
+                [
+                    "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_ribbon_wf/bin_wm_distvol/mapflow/_bin_wm_distvol1/rh.white_converted_distvol_maths_bin.nii.gz",
+                    "c89cecb7fcf4e9a535089e38bcce3af1"
+                ]
+            ]
+        ]
+    ],
+    [
+        "output_type",
+        "NIFTI_GZ"
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

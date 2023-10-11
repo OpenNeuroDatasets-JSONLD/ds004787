@@ -1,0 +1,16 @@
+[
+    [
+        "in_file",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/surface_recon_wf/gifti_surface_wf/morphs2gii/mapflow/_morphs2gii0/lh.thickness_converted.gii",
+            "1192be9e9fd91eb0f4bdbe600d9ba658"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "hemi",
+            "suffix"
+        ]
+    ]
+]

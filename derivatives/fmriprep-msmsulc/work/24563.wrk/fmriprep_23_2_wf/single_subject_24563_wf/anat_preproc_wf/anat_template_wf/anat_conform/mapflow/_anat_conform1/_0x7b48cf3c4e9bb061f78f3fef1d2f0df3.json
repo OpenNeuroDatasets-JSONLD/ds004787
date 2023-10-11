@@ -1,0 +1,31 @@
+[
+    [
+        "in_file",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_template_wf/denoise/mapflow/_denoise1/sub-24563_ses-2_rec-orig_run-1_T1w_noise_corrected.nii.gz",
+            "1f6c0bb514c26058285977926e75e6c2"
+        ]
+    ],
+    [
+        "target_shape",
+        [
+            250,
+            320,
+            320
+        ]
+    ],
+    [
+        "target_zooms",
+        [
+            "0.7995986938",
+            "0.8000000119",
+            "0.8000000119"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

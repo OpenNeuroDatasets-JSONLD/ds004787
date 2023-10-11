@@ -1,0 +1,29 @@
+[
+    [
+        "in_xfms",
+        [
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_template_wf/anat_conform_xfm/mapflow/_anat_conform_xfm0/out.lta",
+                "e835bb4eb7eea524290ac5e4541ba36f"
+            ],
+            [
+                "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_template_wf/anat_merge/tp1.lta",
+                "ec59a922f984fd46135fdbc59905503b"
+            ]
+        ]
+    ],
+    [
+        "inverse",
+        true
+    ],
+    [
+        "out_fmt",
+        "itk"
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_xfm"
+        ]
+    ]
+]

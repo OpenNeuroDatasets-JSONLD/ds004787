@@ -1,0 +1,41 @@
+[
+    [
+        "after",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_norm_wf/_template_MNI152NLin6Asym/tpl_moving/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_xform_trans.nii.gz",
+            "cca66375e38855bcc6894b2850fbaee6"
+        ]
+    ],
+    [
+        "after_mask",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_norm_wf/_template_MNI152NLin6Asym/std_mask/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_corrected_xform_rbrainmask_trans.nii.gz",
+            "7bfb45ffd102515ac155b6979bf14bd2"
+        ]
+    ],
+    [
+        "before",
+        [
+            "/home/zugmana2/.cache/templateflow/tpl-MNI152NLin6Asym/tpl-MNI152NLin6Asym_res-01_T1w.nii.gz",
+            "bc963303a71b6acbe537b092a4c19af4"
+        ]
+    ],
+    [
+        "function_str",
+        "def _rpt_masks(mask_file, before, after, after_mask=None):\n    from os.path import abspath\n    import nibabel as nb\n\n    msk = nb.load(mask_file).get_fdata() > 0\n    bnii = nb.load(before)\n    nb.Nifti1Image(bnii.get_fdata() * msk, bnii.affine, bnii.header).to_filename(\"before.nii.gz\")\n    if after_mask is not None:\n        msk = nb.load(after_mask).get_fdata() > 0\n\n    anii = nb.load(after)\n    nb.Nifti1Image(anii.get_fdata() * msk, anii.affine, anii.header).to_filename(\"after.nii.gz\")\n    return abspath(\"before.nii.gz\"), abspath(\"after.nii.gz\")\n"
+    ],
+    [
+        "mask_file",
+        [
+            "/home/zugmana2/.cache/templateflow/tpl-MNI152NLin6Asym/tpl-MNI152NLin6Asym_res-01_desc-brain_mask.nii.gz",
+            "192b6808edfee9c24effeec4089402ea"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "after",
+            "before"
+        ]
+    ]
+]

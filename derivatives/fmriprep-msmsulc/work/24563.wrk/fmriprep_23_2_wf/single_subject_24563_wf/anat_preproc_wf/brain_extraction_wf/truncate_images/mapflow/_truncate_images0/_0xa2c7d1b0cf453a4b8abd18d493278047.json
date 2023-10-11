@@ -1,0 +1,31 @@
+[
+    [
+        "copy_header",
+        true
+    ],
+    [
+        "dimension",
+        3
+    ],
+    [
+        "op1",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/anat_template_wf/anat_merge/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template.nii.gz",
+            "c230dcd56ab181809fd7b867f1e960f8"
+        ]
+    ],
+    [
+        "op2",
+        "0.01 0.999 256"
+    ],
+    [
+        "operation",
+        "TruncateImageIntensity"
+    ],
+    [
+        "needed_outputs",
+        [
+            "output_image"
+        ]
+    ]
+]

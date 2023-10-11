@@ -1,0 +1,35 @@
+[
+    [
+        "hemi",
+        "rh"
+    ],
+    [
+        "source_file",
+        [
+            "/lscratch/8536404/24563.out/sourcedata/freesurfer/sub-24563/surf/rh.sulc",
+            "22f3287fd756c36f3381d36ea39de3bd"
+        ]
+    ],
+    [
+        "source_subject",
+        "sub-24563"
+    ],
+    [
+        "subjects_dir",
+        "/lscratch/8536404/24563.out/sourcedata/freesurfer"
+    ],
+    [
+        "target_subject",
+        "fsaverage"
+    ],
+    [
+        "target_type",
+        "gii"
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

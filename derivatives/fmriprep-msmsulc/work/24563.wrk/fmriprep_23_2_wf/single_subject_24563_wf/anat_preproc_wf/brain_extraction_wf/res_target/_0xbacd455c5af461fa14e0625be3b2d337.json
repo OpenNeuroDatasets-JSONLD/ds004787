@@ -1,0 +1,35 @@
+[
+    [
+        "clip",
+        true
+    ],
+    [
+        "in_file",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/brain_extraction_wf/inu_n4/mapflow/_inu_n40/sub-24563_ses-1_rec-orig_run-1_T1w_noise_corrected_template_maths_corrected.nii.gz",
+            "a81b6effac4cada4d95166d4a0947573"
+        ]
+    ],
+    [
+        "order",
+        3
+    ],
+    [
+        "smooth",
+        true
+    ],
+    [
+        "zooms",
+        [
+            "4.0000000000",
+            "4.0000000000",
+            "4.0000000000"
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

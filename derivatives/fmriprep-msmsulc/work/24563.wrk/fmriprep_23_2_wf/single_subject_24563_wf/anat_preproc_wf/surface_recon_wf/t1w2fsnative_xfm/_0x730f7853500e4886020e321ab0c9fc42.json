@@ -1,0 +1,23 @@
+[
+    [
+        "in_lta",
+        [
+            "/lscratch/8536404/24563.wrk/fmriprep_23_2_wf/single_subject_24563_wf/anat_preproc_wf/surface_recon_wf/fsnative2t1w_xfm/T1_robustreg.lta",
+            "0dc7d53a8ecfb889f5c25ece0a55dd3c"
+        ]
+    ],
+    [
+        "invert",
+        true
+    ],
+    [
+        "out_lta",
+        true
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_lta"
+        ]
+    ]
+]

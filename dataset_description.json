@@ -14,5 +14,5 @@
     ],
     "Description": "",
     "Acknowledgements": "This BIDS dataset was created using the scripts in https://github.com/zugmana/xnat-access created by Andre Zugman",
-    "DatasetDOI": "doi:10.18112/openneuro.ds004787.v1.0.0"
+    "DatasetDOI": "doi:10.18112/openneuro.ds004787.v1.1.0"
 }

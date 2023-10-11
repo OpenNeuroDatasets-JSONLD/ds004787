@@ -1,0 +1,6 @@
+cd /gpfs/gsfs10/users/MLDSST/nielsond/target_test/notebooks
+# Check that the following brain mask does not exclude any brain tissue (and is reasonably good at not including non-brain tissue outside of the immediately surrounding CSF)
+fslview /lscratch/9670748/studyfolder/sub-24563/T2w/T2w_acpc /lscratch/9670748/studyfolder/sub-24563/T2w/T2w_acpc_brain_mask -l Red -t 0.5
+# Optional debugging: linear and non-linear registration result
+fslview /data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/global/templates/MNI152_T2_2mm.nii.gz /lscratch/9670748/studyfolder/sub-24563/T2w/BrainExtraction_FNIRTbased/T2w_acpc_to_MNI_roughlin.nii.gz
+fslview /data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/global/templates/MNI152_T2_0.8mm.nii.gz /lscratch/9670748/studyfolder/sub-24563/T2w/BrainExtraction_FNIRTbased/T2w_acpc_to_MNI_nonlin.nii.gz

@@ -1,0 +1,5 @@
+/data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/PreFreeSurfer/scripts/ACPCAlignment.sh --workingdir=/lscratch/9670748/studyfolder/sub-24563/T1w/ACPCAlignment --in=/lscratch/9670748/studyfolder/sub-24563/T1w/T1w --ref=/data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/global/templates/MNI152_T1_0.8mm.nii.gz --out=/lscratch/9670748/studyfolder/sub-24563/T1w/T1w_acpc --omat=/lscratch/9670748/studyfolder/sub-24563/T1w/xfms/acpc.mat --brainsize=170
+PWD = /gpfs/gsfs10/users/MLDSST/nielsond/target_test/notebooks
+date: Wed Oct  4 10:22:32 EDT 2023
+ 
+ END: Wed Oct  4 10:23:31 EDT 2023

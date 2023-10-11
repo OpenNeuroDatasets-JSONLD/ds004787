@@ -1,0 +1,1 @@
+mri_watershed -T1 -brain_atlas /usr/local/apps/freesurfer/6.0.0/average/RB_all_withskull_2016-05-10.vc700.gca transforms/talairach_with_externmask.lta T1.mgz brainmask.auto.mgz

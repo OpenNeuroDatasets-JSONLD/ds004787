@@ -1,0 +1,3 @@
+/data/MLDSST/nielsond/target_test/other_repos/MSM/msm --conf=/data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/MSMConfig/MSMSulcStrainFinalconf --inmesh=/lscratch/9670748/studyfolder/sub-24563/MNINonLinear/Native/sub-24563.R.sphere.rot.native.surf.gii --refmesh=/lscratch/9670748/studyfolder/sub-24563/MNINonLinear/sub-24563.R.sphere.164k_fs_LR.surf.gii --indata=/lscratch/9670748/studyfolder/sub-24563/MNINonLinear/Native/sub-24563.R.sulc.native.shape.gii --refdata=/lscratch/9670748/studyfolder/sub-24563/MNINonLinear/sub-24563.R.refsulc.164k_fs_LR.shape.gii --out=/lscratch/9670748/studyfolder/sub-24563/MNINonLinear/Native/MSMSulc/R. --verbose 
+---------------------------------------------
+

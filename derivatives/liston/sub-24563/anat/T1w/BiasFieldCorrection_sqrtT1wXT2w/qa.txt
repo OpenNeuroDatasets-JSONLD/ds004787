@@ -1,0 +1,8 @@
+cd /gpfs/gsfs10/users/MLDSST/nielsond/target_test/notebooks
+# Look at the quality of the bias corrected output (T1w is brain only)
+fslview /lscratch/9670748/studyfolder/sub-24563/T1w/T1w_acpc_dc_brain /lscratch/9670748/studyfolder/sub-24563/T1w/T1w_acpc_dc_restore_brain
+fslview /lscratch/9670748/studyfolder/sub-24563/T1w/T2w_acpc_dc /lscratch/9670748/studyfolder/sub-24563/T1w/T2w_acpc_dc_restore
+# Optional debugging (multiplied image + masked + normalised versions)
+fslview /lscratch/9670748/studyfolder/sub-24563/T1w/BiasFieldCorrection_sqrtT1wXT2w/T1wmulT2w.nii.gz /lscratch/9670748/studyfolder/sub-24563/T1w/BiasFieldCorrection_sqrtT1wXT2w/T1wmulT2w_brain_norm.nii.gz /lscratch/9670748/studyfolder/sub-24563/T1w/BiasFieldCorrection_sqrtT1wXT2w/T1wmulT2w_brain_norm_modulate_mask -l Red -t 0.5
+# Optional debugging (smoothed version, extrapolated version)
+fslview /lscratch/9670748/studyfolder/sub-24563/T1w/BiasFieldCorrection_sqrtT1wXT2w/T1wmulT2w_brain_norm_s5.nii.gz /lscratch/9670748/studyfolder/sub-24563/T1w/BiasFieldCorrection_sqrtT1wXT2w/bias_raw

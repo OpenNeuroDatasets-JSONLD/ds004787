@@ -1,0 +1,5 @@
+/data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/PreFreeSurfer/scripts/BiasFieldCorrection_sqrtT1wXT2w.sh --workingdir=/lscratch/9670748/studyfolder/sub-24563/T1w/BiasFieldCorrection_sqrtT1wXT2w --T1im=/lscratch/9670748/studyfolder/sub-24563/T1w/T1w_acpc_dc --T1brain=/lscratch/9670748/studyfolder/sub-24563/T1w/T1w_acpc_dc_brain --T2im=/lscratch/9670748/studyfolder/sub-24563/T1w/T2w_acpc_dc --obias=/lscratch/9670748/studyfolder/sub-24563/T1w/BiasField_acpc_dc --oT1im=/lscratch/9670748/studyfolder/sub-24563/T1w/T1w_acpc_dc_restore --oT1brain=/lscratch/9670748/studyfolder/sub-24563/T1w/T1w_acpc_dc_restore_brain --oT2im=/lscratch/9670748/studyfolder/sub-24563/T1w/T2w_acpc_dc_restore --oT2brain=/lscratch/9670748/studyfolder/sub-24563/T1w/T2w_acpc_dc_restore_brain
+PWD = /gpfs/gsfs10/users/MLDSST/nielsond/target_test/notebooks
+date: Wed Oct  4 10:52:35 EDT 2023
+ 
+ END: Wed Oct  4 10:53:36 EDT 2023

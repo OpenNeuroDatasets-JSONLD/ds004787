@@ -1,0 +1,102 @@
+$Id: mri_segreg.c,v 1.113 2016/05/10 03:23:20 greve Exp $
+setenv SUBJECTS_DIR /lscratch/9670748/studyfolder/sub-24563/T1w
+cd /lscratch/9670748/studyfolder/sub-24563/T1w/sub-24563/mri
+mri_segreg --mov transforms/tmp.bbregister.984578/template.nii --init-reg transforms/tmp.bbregister.984578/bbr.pass1.dat --out-reg transforms/T2raw.auto.dat --interp trilinear --wm-proj-abs 1.5 --tol 1e-8 --tol1d 1e-3 --c0 0 --mincost transforms/T2raw.auto.dat.mincost --dof 6 --nmax 36 --param transforms/T2raw.auto.dat.param --surf white.preaparc --brute -0.1 0.1 0.1 --cur-reg transforms/tmp.bbregister.984578/reg.curopt.dat --gm-proj-abs 1.5 --nsub 1 --gm-gt-wm 0.5 
+sysname  Linux
+hostname cn4286
+machine  x86_64
+user     nielsond
+movvol transforms/tmp.bbregister.984578/template.nii
+regfile transforms/tmp.bbregister.984578/bbr.pass1.dat
+subject sub-24563
+dof 6
+outregfile transforms/T2raw.auto.dat
+UseMask 0
+UseLH 1
+UseRH 1
+nsubsamp 1
+PenaltySign  -1
+PenaltySlope 0.500000
+PenaltyCenter 0.000000
+surfname white.preaparc
+GMProjAbs 1.500000
+WMProjAbs 1.500000
+lhcostfile (null)
+rhcostfile (null)
+interp  trilinear (1)
+frame  0
+TolPowell 0.000000
+nMaxItersPowell 36
+n1dmin  3
+Profile   0
+Gdiag_no  -1
+AddNoise  0 (0)
+SynthSeed 1697266162
+TransRandMax 0.000000
+RotRandMax 0.000000
+Translations 0.000000 0.000000 0.000000
+Rotations   0.000000 0.000000 0.000000
+Input reg
+ 1.00000  -0.00166   0.00023   0.10580;
+-0.00023   0.00054   1.00000   0.04037;
+-0.00166  -1.00000   0.00054   0.25335;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Initial costs ----------------
+Number of surface hits 288714
+WM  Intensity0   159.2203 +/-  17.8296
+Ctx Intensity0   194.4318 +/-  19.8762
+Pct Contrast0     19.8742 +/-  13.9331
+Cost   0.1205
+RelCost   0.1215
+
+Brute force preopt -0.1 0.1 0.1, n = 729
+     0  -0.1000  -0.1000  -0.1000  -0.1000  -0.1000  -0.1000      0.1220   0.1220  0.0
+     1  -0.1000  -0.1000  -0.1000  -0.1000  -0.1000   0.0000      0.1215   0.1215  0.0
+     3  -0.1000  -0.1000  -0.1000  -0.1000   0.0000  -0.1000      0.1204   0.1204  0.0
+    27  -0.1000  -0.1000   0.0000  -0.1000  -0.1000  -0.1000      0.1203   0.1203  0.0
+    28  -0.1000  -0.1000   0.0000  -0.1000  -0.1000   0.0000      0.1200   0.1200  0.0
+    30  -0.1000  -0.1000   0.0000  -0.1000   0.0000  -0.1000      0.1182   0.1182  0.0
+    82  -0.1000   0.0000  -0.1000  -0.1000  -0.1000   0.0000      0.1174   0.1174  0.0
+   109  -0.1000   0.0000   0.0000  -0.1000  -0.1000   0.0000      0.1169   0.1169  0.0
+   110  -0.1000   0.0000   0.0000  -0.1000  -0.1000   0.1000      0.1167   0.1167  0.0
+   135  -0.1000   0.0000   0.1000  -0.1000  -0.1000  -0.1000      0.1165   0.1165  0.0
+   136  -0.1000   0.0000   0.1000  -0.1000  -0.1000   0.0000      0.1160   0.1160  0.0
+   145  -0.1000   0.0000   0.1000   0.0000  -0.1000   0.0000      0.1153   0.1153  0.0
+   216  -0.1000   0.1000   0.1000  -0.1000  -0.1000  -0.1000      0.1132   0.1132  0.0
+
+Final costs ----------------
+Number of surface hits 288714
+WM  Intensity0   159.1906 +/-  17.7348
+Ctx Intensity0   194.5009 +/-  19.7797
+Pct Contrast0     19.9330 +/-  13.7746
+Cost   0.1181
+RelCost   0.1215
+Number of iterations     6
+Min cost was 0.118070
+RelMinCost   0.1190
+Number of FunctionCalls   506
+OptimizationTime 20.759000 sec
+Parameters at optimum (transmm, rotdeg)
+-0.11395 -0.02994 -0.06792 -0.08923 -0.08468  0.07230 
+Number of surface hits 288714
+WM  Intensity   159.1906 +/-  17.7348
+Ctx Intensity   194.5009 +/-  19.7797
+Pct Contrast     19.9330 +/-  13.7746
+Cost at optimum   0.1181
+RelCostOptimum   0.1190
+nhits= 288714 wmmn=  159.1906 wmstd= 17.7348 constd=   13.7746 ctxmn=  194.5009 ctxstd= 19.7797 conmn =  19.9330 costmn =   0.1181 
+#C#  -0.114  -0.030  -0.068 -0.089 -0.085  0.072 0.000000 0.000000 0.118070 159.190620 194.500917 19.932953 0.000000 0.500000     1 0
+Reg at min cost was 
+ 1.00000  -0.00018  -0.00103  -0.00857;
+ 0.00103  -0.00102   1.00000   0.01096;
+-0.00018  -1.00000  -0.00102   0.18552;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Original Reg - Optimal Reg
+-0.00000  -0.00148   0.00126   0.11438;
+-0.00126   0.00156   0.00000   0.02941;
+-0.00148   0.00000   0.00156   0.06783;
+ 0.00000   0.00000   0.00000   0.00000;
+
+Surface-RMS-Diff-mm 0.165260 0.053485 0.272566

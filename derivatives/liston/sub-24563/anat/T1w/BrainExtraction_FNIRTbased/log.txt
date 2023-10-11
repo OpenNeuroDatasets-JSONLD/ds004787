@@ -1,0 +1,5 @@
+/data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/PreFreeSurfer/scripts/BrainExtraction_FNIRTbased.sh --workingdir=/lscratch/9670748/studyfolder/sub-24563/T1w/BrainExtraction_FNIRTbased --in=/lscratch/9670748/studyfolder/sub-24563/T1w/T1w_acpc --ref=/data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/global/templates/MNI152_T1_0.8mm.nii.gz --refmask=/data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/global/templates/MNI152_T1_0.8mm_brain_mask.nii.gz --ref2mm=/data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/global/templates/MNI152_T1_2mm.nii.gz --ref2mmmask=/data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/global/templates/MNI152_T1_2mm_brain_mask_dil.nii.gz --outbrain=/lscratch/9670748/studyfolder/sub-24563/T1w/T1w_acpc_brain --outbrainmask=/lscratch/9670748/studyfolder/sub-24563/T1w/T1w_acpc_brain_mask --fnirtconfig=/data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/global/config/T1_2_MNI152_2mm.cnf
+PWD = /gpfs/gsfs10/users/MLDSST/nielsond/target_test/notebooks
+date: Wed Oct  4 10:23:31 EDT 2023
+ 
+ END: Wed Oct  4 10:31:00 EDT 2023

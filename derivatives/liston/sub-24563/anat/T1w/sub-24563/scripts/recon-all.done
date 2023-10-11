@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT sub-24563
+START_TIME Wed Oct 4 11:08:03 EDT 2023
+END_TIME Wed Oct 4 16:29:51 EDT 2023
+RUNTIME_HOURS 5.363
+USER nielsond
+HOST cn4286
+PROCESSOR x86_64
+OS Linux
+UNAME Linux cn4286 4.18.0-425.19.2.el8_7.x86_64 #1 SMP Tue Apr 4 22:38:11 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+VERSION $Id: recon-all,v 1.580.2.15 2016/12/08 22:02:41 zkaufman Exp $
+CMDPATH /data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/FreeSurfer/custom/recon-all.v6.hires
+CMDARGS -subjid sub-24563 -sd /lscratch/9670748/studyfolder/sub-24563/T1w -all -i /lscratch/9670748/studyfolder/sub-24563/T1w/T1w_acpc_dc_restore_zero_threshold.nii.gz -emregmask /lscratch/9670748/studyfolder/sub-24563/T1w/T1w_acpc_dc_restore_brain.nii.gz -T2 /lscratch/9670748/studyfolder/sub-24563/T1w/T2w_acpc_dc_restore.nii.gz -T2pial -conf2hires

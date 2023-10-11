@@ -1,0 +1,9 @@
+Logfile for pctsurfcon
+Wed Oct  4 16:12:05 EDT 2023
+setenv SUBJECTS_DIR /lscratch/9670748/studyfolder/sub-24563/T1w
+cd /lscratch/9670748/studyfolder/sub-24563/T1w/sub-24563/scripts
+/usr/local/apps/freesurfer/6.0.0/bin/pctsurfcon
+$Id: pctsurfcon,v 1.15 2016/02/12 21:43:15 zkaufman Exp $
+Linux cn4286 4.18.0-425.19.2.el8_7.x86_64 #1 SMP Tue Apr 4 22:38:11 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+FREESURFER_HOME /usr/local/apps/freesurfer/6.0.0
+Cleaning up

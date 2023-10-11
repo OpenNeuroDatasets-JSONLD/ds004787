@@ -1,0 +1,5 @@
+cd /gpfs/gsfs10/users/MLDSST/nielsond/target_test/notebooks
+# Check that the following image does not cut off any brain tissue
+fslview /lscratch/9670748/studyfolder/sub-24563/T2w/ACPCAlignment/robustroi
+# Check that the alignment to the reference image is acceptable (the top/last image is spline interpolated)
+fslview /data/MLDSST/nielsond/target_test/other_repos/HCPpipelines/global/templates/MNI152_T2_0.8mm.nii.gz /lscratch/9670748/studyfolder/sub-24563/T2w/ACPCAlignment/acpc_final /lscratch/9670748/studyfolder/sub-24563/T2w/T2w_acpc

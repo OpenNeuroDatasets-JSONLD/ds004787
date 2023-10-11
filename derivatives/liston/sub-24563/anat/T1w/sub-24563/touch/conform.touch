@@ -1,0 +1,1 @@
+mri_convert /lscratch/9670748/studyfolder/sub-24563/T1w/sub-24563/mri/rawavg.mgz /lscratch/9670748/studyfolder/sub-24563/T1w/sub-24563/mri/orig.mgz --conform

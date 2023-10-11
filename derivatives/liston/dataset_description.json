@@ -1,0 +1,13 @@
+{
+    "Name": "Liston-Laboratory-MultiEchofMRI-Pipeline",
+    "BIDSVersion": "1.4.0",
+    "DatasetType": "derivative",
+    "GeneratedBy": [
+        {
+            "Name": "Liston-Laboratory-MultiEchofMRI-Pipeline",
+            "Version": "1dfbfd8",
+            "CodeURL": "https://github.com/Shotgunosine/Liston-Laboratory-MultiEchofMRI-Pipeline/commit/1dfbfd848744808a6a3181969ed9c0e1a71b6680"
+        }
+    ]
+}
+
